@@ -1,0 +1,15 @@
+
+.div2 {
+    
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: #f3f3f3;
+}
+
