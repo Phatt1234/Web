@@ -41,7 +41,7 @@ class Form < Sinatra::Base
 		end
 		
 
-		@data = ""#getname
+		@data = getname
 		erb :form
 	end
 	def getname
