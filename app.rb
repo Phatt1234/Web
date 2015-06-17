@@ -12,21 +12,7 @@ ActiveRecord::Base.establish_connection(
 	)
 class Name < ActiveRecord::Base
 end
-class Model_Name < Sinatra::Base
-	def getname
 
-		results=''
-		@allname = Name.last(1)
-
-		for item in @allname
-			#results += '<tr><td>'
-			results += item.name 
-			#results += '</tr></td>'
-		end
-
-		return results 	
-	end
-end
 class Form < Sinatra::Base
 	set :views, File.dirname(__FILE__) + "/views"
 	get '/form' do
